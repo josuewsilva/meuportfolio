@@ -5,3 +5,9 @@ hr{
 footer{
     padding: 15px;
 }
+
+.texto-rodape{
+    margin-left: 550px;
+    padding-top: 20px;
+    font-size: 0.8em;
+}
