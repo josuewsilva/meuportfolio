@@ -1,0 +1,33 @@
+.container-destaques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.texto-destaques{
+    
+}
+
+.texto-destaques h3{
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.texto-destaques p{
+    text-align: justify;
+}
+
+.borda-destaques{
+    width: 300px;
+    border: 3px solid #610094;
+    padding: 10px;
+    
+}
+
+.borda-destaques:hover{
+    background-color: #610094;
+    transition: .5s;
+}
