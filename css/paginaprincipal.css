@@ -19,10 +19,11 @@ html, body{
     background-color: #ffde59b1;
 }
 
+/*CABEÇALHO*/
 header{
-    height: 100px;
+    height: 80px;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: black;
     position: absolute;
     z-index: 1;
@@ -37,12 +38,12 @@ header{
     max-width: 1100px;
 }
 
-.redes-sociais span{
+.redes-sociais a{
    margin: 5px;
 }
 
 .icone-rede{
-    width: 40px;
+    width: 30px;
 }
 
 nav{
@@ -62,6 +63,8 @@ nav a:hover{
     transition: .3s;
 }
 
+
+/*SEÇÃO PRINCIPAL*/
 .corpo-principal{
     height: calc(100%-100px);
 }
@@ -82,10 +85,6 @@ nav a:hover{
     width: 45%;
     top: 35%;
     margin: 40px;
-}
-
-.texto-principal{
-
 }
 
 .texto-principal h1{
