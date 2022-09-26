@@ -14,7 +14,21 @@ function displayTime(){
         var xsec = "0" + Time.getSeconds();
     }
 
-    let currentTime = `${hrs}:${min}:${xsec}`;
+    //putting a zero in front of the minutes
+    if (min > 9){
+        var xmin = Time.getMinutes();
+    }else{
+        var xmin = "0" + Time.getMinutes();
+    }
+
+    //putting a zero in front of the hours
+    if (hrs > 9){
+        var xhrs = Time.getHours();
+    }else{
+        var xhrs = "0" + Time.getHours();
+    }
+
+    let currentTime = `${xhrs}:${xmin}:${xsec}`;
 
     //interacting with the html
     document.getElementById("clock").innerHTML = currentTime;
