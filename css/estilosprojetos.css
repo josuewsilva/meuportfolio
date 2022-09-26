@@ -1,0 +1,11 @@
+#date{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#clock{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
